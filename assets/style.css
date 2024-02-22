@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    padding:1%;
+    color: white;
+    font-size: 35px;
+}
+.content{
+    /* background-color: rebeccapurple; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+
+.images img {
+    width: 250px;
+    height: 250px;
+      border: 2px solid black;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.content .row .images{
+    text-align: center;
+}
+.scores{
+    text-align: center;
+    /* border-radius: 10px; */
+}
+.scores div p{
+    font-size: 40px;
+}
+.images img:hover{
+    opacity: 0.6;
+    cursor: pointer;
+    /* border: 3px solid black; */
+}
+.msg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.msg_box{
+
+    /* background-color: green; */
+    color: white;
+    /* text-align: center; */
+    /* display: inline; */
+    /* text-align: center; */
+    font-size: 30px;
+}
+.msg_box p{
+    /* width: 200px; */
+    padding: 8px;
+    background-color: green;
+    border-radius: 10px;
+}
+.win{
+    padding: 8px;
+    background-color: rgb(0, 64, 128);
+    border-radius: 10px;
+    font-size: 30px;
+    color: white;
+}
+.lost{
+    padding: 8px;
+    background-color: rgb(204, 47, 12);
+    border-radius: 10px;
+    font-size: 30px;
+    color: white;
+}
+.draw{
+    padding: 8px;
+    background-color: rgb(40, 10, 133);
+    border-radius: 10px;
+    font-size: 30px;
+    color: white;
+}
